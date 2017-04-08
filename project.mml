@@ -1960,7 +1960,7 @@
   ],
   "scale": 1,
   "metatile": 2,
-  "name": "OpenStreetMap Carto",
-  "description": "A general-purpose OpenStreetMap mapnik style, in CartoCSS",
-  "attribution": ""
+  "name": "Ogijima MAP",
+  "description": "Map for the Ogijima, Kagawa, Japan.",
+  "attribution": "<a href=\"http://osm.org/copyright\" target=\"_blank\">OpenStreetMap Contributers</a>"
 }
