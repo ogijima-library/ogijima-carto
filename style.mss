@@ -272,8 +272,8 @@ For a considerable number of labels this style will make no difference to the re
 
                 "Unifont Medium", "unifont Medium", "Unifont Upper Medium";
 
-@water-color: #b5d0d0;
-@land-color: #f2efe9;
+@water-color: #b9e5f4;
+@land-color: #f7f7f7;
 
 @standard-halo-radius: 1;
 @standard-halo-fill: rgba(255,255,255,0.6);

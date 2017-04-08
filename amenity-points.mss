@@ -840,14 +840,14 @@
     marker-clip: false;
     marker-fill: @shop-icon;
   }
-  
+
   [feature = 'shop_electronics'][zoom >= 17] {
     marker-file: url('symbols/shop/electronics.svg');
     marker-placement: interior;
     marker-clip: false;
     marker-fill: @shop-icon;
   }
-  
+
   [feature = 'shop_alcohol'],
   [feature = 'shop_wine'] {
     [zoom >= 17] {
@@ -857,28 +857,28 @@
       marker-fill: @shop-icon;
     }
   }
-  
+
   [feature = 'shop_optician'][zoom >= 17] {
     marker-file: url('symbols/shop/optician.svg');
     marker-placement: interior;
     marker-clip: false;
     marker-fill: @shop-icon;
   }
-  
+
   [feature = 'shop_outdoor'][zoom >= 17] {
     marker-file: url('symbols/shop/outdoor.svg');
     marker-placement: interior;
     marker-clip: false;
     marker-fill: @shop-icon;
   }
-  
+
   [feature = 'shop_furniture'][zoom >= 17] {
     marker-file: url('symbols/shop/furniture.svg');
     marker-placement: interior;
     marker-clip: false;
     marker-fill: @shop-icon;
   }
-  
+
   [feature = 'shop_mobile_phone'][zoom >= 17] {
     marker-file: url('symbols/shop/mobile_phone.svg');
     marker-placement: interior;
@@ -1472,7 +1472,7 @@
   [feature = 'boundary_national_park'],
   [feature = 'leisure_nature_reserve'] {
     [zoom >= 8][way_pixels > 3000][is_building = 'no'],
-    [zoom >= 17] {  
+    [zoom >= 17] {
       text-name: "[name]";
       text-size: @landcover-font-size;
       text-wrap-width: @landcover-wrap-width-size;

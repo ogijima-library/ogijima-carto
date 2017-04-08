@@ -2,9 +2,9 @@
 
 @grass: #cdebb0; // also meadow, common, garden, village_green
 @scrub: #b5e3b5;
-@forest: #add19e;       // Lch(80,30,135)
 @forest-text: #46673b;  // Lch(40,30,135)
-@park: #c8facc;         // Lch(94,30,145) also recreation_ground
+@park: #c9e7af;         // Lch(94,30,145) also recreation_ground
+@forest: @park;
 @orchard: #aedfa3; // also vineyard, plant_nursery
 
 // --- "Base" landuses ---
@@ -450,7 +450,7 @@
     [way_pixels >= 4]  { polygon-gamma: 0.75; }
     [way_pixels >= 64] { polygon-gamma: 0.3;  }
   }
- 
+
   [feature = 'wetland_swamp'][zoom >= 8] {
     polygon-fill: @forest;
     [way_pixels >= 4]  { polygon-gamma: 0.75; }
@@ -649,13 +649,6 @@
       polygon-pattern-alignment: global;
     }
   }
-
-  //Also landuse = forest, converted in the SQL
-  [natural = 'wood'][zoom >= 13]::wood {
-    polygon-pattern-file: url('symbols/forest.png'); // Lch(55,30,135)
-    polygon-pattern-alignment: global;
-    opacity: 0.4; // The entire layer has opacity to handle overlapping forests
-  }
 }
 
 #landuse-overlay {
@@ -736,7 +729,7 @@
       b/line-color: @tourism;
       b/line-opacity: 0.3;
       b/line-join: round;
-      b/line-cap: round;    
+      b/line-cap: round;
     }
     [zoom >= 17] {
       a/line-width: 2;

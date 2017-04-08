@@ -4,7 +4,7 @@
 /*                                                                   */
 /*   ./scripts/generate_road_colours.py > road-colors-generated.mss  */
 /*                                                                   */
-@motorway-low-zoom-casing: #c24e6b;
+@motorway-low-zoom-casing: #ec3400;
 @trunk-low-zoom-casing: #cf6649;
 @primary-low-zoom-casing: #c38a27;
 @secondary-low-zoom-casing: #9eae23;
